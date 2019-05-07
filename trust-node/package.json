@@ -1,0 +1,38 @@
+{
+    "name": "koa2-trust",
+    "version": "1.0.0",
+    "description": "> 正是因为中间件的扩展性才使得 `Koa` 的代码简单灵活。",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "export NODE_ENV=dev && node app.js",
+        "prod": "export NODE_ENV=prod && node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ip": "^1.1.5",
+        "koa": "^2.3.0",
+        "koa-bodyparser": "^4.2.0",
+        "koa-nunjucks-2": "^3.0.2",
+        "koa-router": "^7.2.1",
+        "koa-static": "^4.0.1",
+        "log4js": "^2.3.7",
+        "nunjucks": "^3.0.1",
+        "vue": "^2.6.10",
+        "vue-router": "^3.0.3",
+        "vue-server-renderer": "^2.5.17",
+        "vuex": "^3.0.1",
+        "vuex-router-sync": "^5.0.0",
+        "superagent": "^4.1.0"
+    },
+    "devDependencies": {
+        "@vue/cli-service": "^3.6.0",
+        "babel-plugin-transform-runtime": "6.x.x",
+        "koa-webpack": "^5.2.3",
+        "vue-server-renderer": "^2.6.10",
+        "vue-template-compiler": "^2.5.21",
+        "webpack": "^4.30.0",
+        "webpack-node-externals": "^1.7.2"
+    }
+}
